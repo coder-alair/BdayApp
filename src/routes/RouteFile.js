@@ -3,6 +3,7 @@ const Page1 = lazy(() => import('../ui/Page1'));
 const Page2 = lazy(() => import('../ui/Page2'));
 const Page3 = lazy(() => import('../ui/Page3'));
 const Page4 = lazy(() => import('../ui/Page4'));
+const Cake = lazy(() => import('../ui/cakeanimation'));
 
 
 const routes = [
@@ -32,6 +33,13 @@ const routes = [
     exact: true,
     name: 'Page4',
     component: Page4,
+    private: false
+  },
+  {
+    path: '/cake',
+    exact: true,
+    name: 'cake',
+    component: Cake,
     private: false
   },
 

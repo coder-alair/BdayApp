@@ -16,7 +16,7 @@ const Page2 = () => {
 
     const handleClick = () => {
         if (index == 5) {
-            navigate('/page3')
+            navigate('/cake')
         }
         setIndex(index + 1)
     }

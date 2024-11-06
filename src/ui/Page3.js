@@ -6,6 +6,7 @@ import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useNavigate } from 'react-router';
 import LottiePlayer from '../components/LottiePlayer';
 import animationData1 from '../assets/lottie/penguin.json'
+import animationData2 from '../assets/lottie/gift.json'
 
 
 
@@ -49,6 +50,7 @@ const Page3 = () => {
                     classNames={'absolute -top-12'}
                 />
             </div>
+            
 
         </div>
     );

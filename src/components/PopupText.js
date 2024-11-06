@@ -17,7 +17,7 @@ const Popup = ({ text }) => {
   return (
     <p
       ref={popupRef}
-      className=' bg-gradient-to-r from-[#efeff1]  to-[#cfcff0]  bg-clip-text text-transparent'
+      className='bg-gradient-to-r from-[#efeff1]  to-[#cfcff0]  bg-clip-text text-transparent'
       style={{
         padding: '20px',
         borderRadius: '10px',
